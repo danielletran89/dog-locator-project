@@ -1,0 +1,45 @@
+/*
+.hide{
+    display: none;
+}
+*/
+#title {
+    text-align: center;
+    font-weight: 900;
+    padding: 5%;
+}
+#dogSearch {
+    padding: 5%;
+    text-align: center;
+}
+#searchBar {
+    font-weight: 700;
+}
+#dogSearchResults {
+    text-align: center;
+    font-weight: 700;
+    padding: 5%;
+}
+#dogList {
+    text-align: center;
+    font-weight: 400;
+}
+#logo {
+    background-image: url();
+    text-align: left;
+    font-weight: 600;
+}
+#parkSearch {
+    text-align: center;
+    padding: 5%;
+}
+#parkSearchHeader {
+    font-weight: 700;
+}
+#parkSearchResults {
+    text-align: center;
+    padding: 5%;
+}
+#parkSearchResultsHeader{
+    font-weight: 700;
+}

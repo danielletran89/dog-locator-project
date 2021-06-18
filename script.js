@@ -1,16 +1,3 @@
-var requestUrl = 'https://api.petfinder.com/v2/{CATEGORY}/{ACTION}?{parameter_1}={value_1}&{parameter_2}={value_2}';
-
-var responseText = document.getElementById('response-text');
-
-function getApi(requestUrl) {
-  fetch(requestUrl)
-    .then(function (response) {
-      console.log(response);
-      if (response.status === 200) {
-        responseText.textContent = response.status;
-      }
-      return response.json();
-  });
-}
-
-getApi(requestUrl);
+//code for new Token
+//LET variable for Token
+//"IF countdown statement" that will request and replace Token every 50min; (let i = 1min, Token Let Variable = 50min countdown(--), if i > Token, then request new Token)
