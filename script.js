@@ -25,9 +25,12 @@ setHeaderImg();
 //LET variable for Token
 //"IF countdown statement" that will request and replace Token every 50min; (let i = 1min, Token Let Variable = 50min countdown(--), if i > Token, then request new Token)
 
+<<<<<<< HEAD
+=======
 
 //function for new Token request:
 //Token request variable: curl -d "grant_type=client_credentials&client_id={2inNIWgn7BISEQ1gykdLw5SsUeqFpIg6G5gX4QWwe0B6nGrczC}&client_secret={5jQpOQ412jXOkGvgiGmWR3R1vPzz00l8nx3NrKWl}" https://api.petfinder.com/v2/oauth2/token
 
 
 //Search Click requests new token everytime
+>>>>>>> main
