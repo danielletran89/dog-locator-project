@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>K9 Best Friend Finder</title>
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1 id="title"> K9 Best Friend Finder</h1>
-    <h2 id="logo"> Logo Here</h2>
-    <div id="dogSearch" class="hide">
-        <h3 id="searchBar" class="search">Search Bar</h3> <button class="search">Clickme</button>
-        <div id="searchContent">
-            <p id="imgEl">
-                Oregon Based K9 Finder
-            </p>
+
+<body id ="body">
+    <h1 id="title" class="z-depth-3"> K9 Best Friend Finder</h1>
+    <h2 id="logo" class="circle responsive-img"> Logo Here</h2>
+    
+    <div class="row">
+
+        <div id="dogSearch" class="col s6">
+
+            <h2>Dog Finder</h2>
+            <input class="searchBar"></input> <button class="search">Click Me</button>
+           <!-- <div id="searchContent">
+                <p id="imgEl">
+                    
+                </p>
+            </div>-->
+        </div>
+
+        <div id="parkSearch" class="col s6">
+
+            <h2>Dog Park Finder</h2>
+            <input class="searchBar"></input> <button class="search">Click Me</button>
         </div>
     </div>
+
     <div id="dogSearchResults" class="hide">
         <h2>Search results</h2>
         <ul id="dogList">
@@ -28,10 +43,7 @@
             dog 4
         </ul>
     </div>
-    <div id="parkSearch" class="hide">
-        <h2 id="parkSearchHeader">Dog Park Finder</h2>
-        <h3>Search</h3> <button>Clickme</button>
-    </div>
+    
     <div id="parkSearchResults" class="hide">
         <h2 id="parkSearchResultsHeader">Dog Park Results</h2>
         <ul>
@@ -41,9 +53,7 @@
             park 4
         </ul>
     </div>
-</body>
-</html>
-    <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css"; rel="stylesheet"> -->
 
-<!-- javascript link?<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+</body>
+
+</html>
