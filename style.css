@@ -13,14 +13,11 @@
     text-align: center;
     border-radius: 5px;
     border: none;
-    color: ivory;
-    
-
+    color: rgb(10, 10, 10);
 }
 
 .searchBar {
-
-background-color: ivory !important;
+background-color: rgb(18, 126, 108) !important;
 }
 
 #title {
@@ -42,12 +39,7 @@ background-color: ivory !important;
 #searchBar {
     font-weight: 700;
 }
-<<<<<<< HEAD
 #dogSearchResultsPageTwo {
-=======
-
-#dogSearchResults {
->>>>>>> main
     text-align: center;
     font-weight: 700;
     padding: 5%;
@@ -56,10 +48,8 @@ background-color: ivory !important;
 #dogList {
     text-align: center;
     font-weight: 400;
-    font-family: fantasy;
 }
 #logo {
-    background-image: url('./images/dog\ finder\ logo.PNG');
     text-align: left;
     font-weight: 600;
     padding: 2%;
@@ -80,4 +70,9 @@ background-color: ivory !important;
 }
 #parkSearchResultsHeader{
     font-weight: 700;
+}
+
+.card-title {
+    font-family: monospace;
+    color: black;
 }
