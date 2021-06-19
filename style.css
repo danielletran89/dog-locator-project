@@ -1,25 +1,58 @@
-/*
+
 .hide{
     display: none;
 }
-*/
+
+#body {
+    background-color: rgb(63, 59, 59);
+}
+
+.search {
+    background-color: blue;
+    padding: 10px 40px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    color: ivory;
+    
+
+}
+
+.searchBar {
+
+background-color: ivory !important;
+}
+
 #title {
     text-align: center;
     font-weight: 900;
     padding: 5%;
+    background-color: darkblue;
+    color: ivory;
 }
+
 #dogSearch {
     padding: 5%;
     text-align: center;
+    background-color: goldenrod;
+    width: 50%;
+    font-weight: 700;
+    
 }
 #searchBar {
     font-weight: 700;
 }
+<<<<<<< HEAD
 #dogSearchResultsPageTwo {
+=======
+
+#dogSearchResults {
+>>>>>>> main
     text-align: center;
     font-weight: 700;
     padding: 5%;
 }
+
 #dogList {
     text-align: center;
     font-weight: 400;
@@ -29,10 +62,14 @@
     background-image: url('./images/dog\ finder\ logo.PNG');
     text-align: left;
     font-weight: 600;
+    padding: 2%;
 }
 #parkSearch {
     text-align: center;
     padding: 5%;
+    font-weight: 700;
+    background-color: goldenrod;
+    width: 50%;
 }
 #parkSearchHeader {
     font-weight: 700;
