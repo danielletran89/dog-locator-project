@@ -15,7 +15,7 @@
 #searchBar {
     font-weight: 700;
 }
-#dogSearchResults {
+#dogSearchResultsPageTwo {
     text-align: center;
     font-weight: 700;
     padding: 5%;
@@ -23,9 +23,10 @@
 #dogList {
     text-align: center;
     font-weight: 400;
+    font-family: fantasy;
 }
 #logo {
-    background-image: url();
+    background-image: url('./images/dog\ finder\ logo.PNG');
     text-align: left;
     font-weight: 600;
 }
@@ -36,7 +37,7 @@
 #parkSearchHeader {
     font-weight: 700;
 }
-#parkSearchResults {
+#parkSearchResultsPageThree {
     text-align: center;
     padding: 5%;
 }
