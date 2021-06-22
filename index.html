@@ -1,57 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>K9 Best Friend Finder</title>
-    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1 id="title">K9 Best Friend Finder</h1>
-    <h2 id="logo">Logo Image Here</h2>
-    <div id="dogSearch" class="hide">
-        <h3 id="searchBar" class="search">Search Bar</h3> <button class="search">Click Me</button>
-        <div id="searchContent">
-            <p id="imgEl">
-                Oregon Based K9 Finder
-            </p>
+<body id ="body">
+    <h1 id="title" class="z-depth-3"> K9 Best Friend Finder</h1>
+    <h2 id="logo" class="circle responsive-img"> Logo Here</h2>
+    <div class="row">
+        <div id="dogSearch" class="col s6">
+            <h2>Dog Finder</h2>
+            <input class="searchBar" id='dog-search-input'></input> <button class="search" id="dog-search-btn">Click Me</button>
+           <!-- <div id="searchContent">
+                <p id="imgEl">
+                </p>
+            </div>-->
+        </div>
+        <div id="parkSearch"  class="col s6">
+            <h2>Dog Park Finder</h2>
+            <input class="searchBar"></input> <button class="search">Click Me</button>
         </div>
     </div>
-    <!--Dog search results on cards, page 2-->
-    <div class="row" id='dogSeachResultsPageTwo'>
-        <div class="col s12 m7">
-          <div class="card">
-            <div class="card-image">
-              <img src="images/sample-1.jpg">
-              <span class="card-title">Search Results</span>
-            </div>
-            <div class="card-content" id="dogList">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    <div id="parkSearch" class="hide">
-        <h2 id="parkSearchHeader">Dog Park Finder</h2>
-        <h3>Search</h3> <button>Click Me</button>
-    </div>
-    <div id="parkSearchResultsPageThree" class="hide">
-        <h2 id="parkSearchResultsHeader">Dog Park Results</h2>
-        <ul>
-            <li>Park 1</li>
-            <li>Park 2</li>
-            <li>Park 3</li>
-            <li>Park 4</li>
+    <div id="dogSearchResults" class="hide">
+        <h2>Search results</h2>
+        <ul id="dogList">
+            <li>Dog 1</li>
+            <li>Dog 2</li>
+            <li>Dog 3</li>
+            <li>Dog 4</li>
         </ul>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src='./script.js'></script>
+    <div id="parkSearchResults" class="hide">
+        <h2 id="parkSearchResultsHeader">Dog Park Results</h2>
+        <ul>
+          <li>Park 1</li>
+          <li>Park 2</li>
+          <li>Park 3</li>
+          <li>Park 4</li>
+        </ul>
+    </div>
+<script src='./script.js'></script>
 </body>
 </html>
