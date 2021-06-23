@@ -69,9 +69,6 @@ function displayDogs(animalsData){
     })
 }
 
-
-
-
 // Initialize and add the map
 function initMap() {
     // The location of Uluru
@@ -87,7 +84,7 @@ function initMap() {
       map: map,
     });
   }
-  
+
 ///var = document.getElementById("");
 //.setAttribute("class", "hide");
 //var = document.getElementById("");
