@@ -39,10 +39,10 @@ background-color: rgb(18, 126, 108) !important;
 #searchBar {
     font-weight: 700;
 }
-#dogSearchResultsPageTwo {
-    text-align: center;
-    font-weight: 700;
-    padding: 5%;
+
+#dogSearchResults {
+    text-align:left;
+    font-family: monospace;
 }
 
 #dogList {
@@ -64,7 +64,7 @@ background-color: rgb(18, 126, 108) !important;
 #parkSearchHeader {
     font-weight: 700;
 }
-#parkSearchResultsPageThree {
+#parkSearchResults {
     text-align: center;
     padding: 5%;
 }

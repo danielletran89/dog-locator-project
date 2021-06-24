@@ -51,6 +51,7 @@ function displayDogs(animalsData){
         const dogImg = document.createElement('img');
         dogImg.setAttribute('src', dogImgUrl)
         const dogLi = document.createElement('li');
+        dogLi.textContent = dog.url;
         dogLi.appendChild(dogNameEl);
         dogLi.appendChild(dogImg);
         dogsUl.appendChild(dogLi);                
