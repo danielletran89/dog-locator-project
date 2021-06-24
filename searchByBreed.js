@@ -9,7 +9,6 @@ function handleSearchByBread(event) {
     return requestToken().then(fetchDogsByBreed).then(displayDogs);
 }
 
-
 function requestToken(){
     return fetch("https://api.petfinder.com/v2/oauth2/token", {
         body: `grant_type=client_credentials&client_id=${apiKey}&client_secret=${apiSecret}`,
@@ -39,9 +38,6 @@ function fetchDogsByBreed(tokenObject){
     })
 }
 
-
-
-
 function displayDogs(animalsData){
     const dogs = animalsData.animals;
     const dogSearchResultsEl = document.getElementById('dogSearchResults');
@@ -54,7 +50,7 @@ function displayDogs(animalsData){
 
         const dogNameEl = document.createElement('h1');
         dogNameEl.textContent = dog.name;
-        let dogImgUrl = 'https://previews.123rf.com/images/bankrx/bankrx2002/bankrx200200058/139551714-grunge-red-unavailable-word-oval-rubber-seal-stamp-on-white-background.jpg'
+        let dogImgUrl = 'https://www.rit.edu/nsfadvance/sites/rit.edu.nsfadvance/files/default_images/photo-unavailable.png'
         if(dog.photos.length && dog.photos[0].medium){
             dogImgUrl = dog.photos[0].medium;
         }
@@ -62,20 +58,20 @@ function displayDogs(animalsData){
         dogImg.setAttribute('src', dogImgUrl)
 
         const dogLi = document.createElement('li');
+        dogLi.textContent = dog.url;
         dogLi.appendChild(dogNameEl);
         dogLi.appendChild(dogImg);
-
-        dogsUl.appendChild(dogLi);                
+        dogsUl.appendChild(dogLi);              
     })
 }
 
 // Initialize and add the map
 function initMap() {
     // The location of Uluru
-    const uluru = { lat: 42.2129072281, lng:  -122.712327641 };
+    const uluru = {lat: 42.2129072281, lng: -122.712327641};
     // The map, centered at Uluru
     const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 4,
+      zoom: 10,
       center: uluru,
     });
     // The marker, positioned at Uluru
@@ -84,35 +80,3 @@ function initMap() {
       map: map,
     });
   }
-
-///var = document.getElementById("");
-//.setAttribute("class", "hide");
-//var = document.getElementById("");
-//.removeAttribute("class");
-
-
-
-// 2nd API Google maps 
- //API key: AIzaSyBj-6egOrbNxdixojgklGRNCljvrETHMoM
-
-/*fetch('"https://maps.googleapis.com/maps/api/js?key=API_KEY&v=beta&callback=initMap"', {
-   
-})
-  .then((response) => response.json())
-  .then(function(data){
-     
-     })
-*/
-
-
-
-
-//const hideScreen;
-
-//document.getElementById("parkSearch");
-//document.removeAttribute("class", "hide");
-
-//var = document.getElementById("");
-//removeAttribute("class");
-
-//Change Alert to Modal

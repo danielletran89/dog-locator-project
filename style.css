@@ -1,4 +1,3 @@
-
 .hide{
     display: none;
 }
@@ -40,20 +39,26 @@ background-color: rgb(18, 126, 108) !important;
     font-weight: 700;
 }
 
-#dogSearchResults {
-    text-align:left;
-    font-family: monospace;
+#dogSearchResultsPageTwo {
+    text-align: center;
+    font-weight: 700;
+    padding: 5%;
 }
 
 #dogList {
     text-align: center;
     font-weight: 400;
 }
+
 #logo {
+    background-image: url();
+    height: 280px;
+    width: 290px;
     text-align: left;
     font-weight: 600;
     padding: 2%;
 }
+
 #parkSearch {
     text-align: center;
     padding: 5%;
@@ -61,13 +66,16 @@ background-color: rgb(18, 126, 108) !important;
     background-color: goldenrod;
     width: 50%;
 }
+
 #parkSearchHeader {
     font-weight: 700;
 }
-#parkSearchResults {
+
+#parkSearchResultsPageThree {
     text-align: center;
     padding: 5%;
 }
+
 #parkSearchResultsHeader{
     font-weight: 700;
 }
@@ -75,4 +83,10 @@ background-color: rgb(18, 126, 108) !important;
 .card-title {
     font-family: monospace;
     color: black;
+}
+
+#map {
+    height: 395px;
+    width: 45%;
+    float: right;
 }
