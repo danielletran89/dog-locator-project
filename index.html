@@ -12,7 +12,7 @@
 
 <body id ="body">
     <h1 id="title" class="z-depth-3"> K9 Best Friend Finder</h1>
-    <h2 id="logo" class="circle responsive-img"> Logo Here</h2>
+    <img id= "logo" src="./images/dog finder logo.PNG">
     
     <div class="row">
 
@@ -26,14 +26,7 @@
                 </p>
             </div>-->
         </div>
-
-        <div id="parkSearch"  class="col s6">
-
-            <h2>Dog Park Finder</h2>
-            <input class="searchBar"></input> <button class="search">Click Me</button>
-        </div>
-    </div>
-
+    <div id="map"></div>
     <div id="dogSearchResults" class="hide">
         <h2>Search results</h2>
         <ul id="dogList">
@@ -43,16 +36,10 @@
             dog 4
         </ul>
     </div>
-    
-    <div id="parkSearchResults" class="hide">
-        <h2 id="parkSearchResultsHeader">Dog Park Results</h2>
-        <ul>
-            park 1
-            park 2
-            park 3
-            park 4
-        </ul>
-    </div>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
 <script src='./searchByBreed.js'></script>
 </body>
 
