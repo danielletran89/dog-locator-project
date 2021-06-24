@@ -18,6 +18,6 @@ The map will show a local dog park in Ashland, OR to take your new dog to.
 
 This applications was built with HTML. JavaScript and CSS. This project utilized Google Maps API and PetFinder API.
 
-### Link to live site: file:///C:/Users/danie/code/dog-locator-project/index.html
+### Link to live site: https://danielletran89.github.io/dog-locator-project/
 
 <img width="1236" alt="Site screenshot" src="https://user-images.githubusercontent.com/82686855/123190936-4cc1a580-d455-11eb-861d-96ed01480b81.PNG">
